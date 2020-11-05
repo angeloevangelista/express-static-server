@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple template to serve static file in a node server",
   "main": "server.js",
-  "repository": "hey",
+  "repository": "https://github.com/angeloevangelista/express-static-server",
   "author": "Angelo Evangelista<angeloevan.ane@gmail.com>",
   "license": "MIT",
   "scripts": {
