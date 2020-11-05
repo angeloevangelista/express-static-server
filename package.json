@@ -1,0 +1,16 @@
+{
+  "name": "express-static-server",
+  "version": "1.0.0",
+  "description": "Simple template to serve static file in a node server",
+  "main": "server.js",
+  "repository": "hey",
+  "author": "Angelo Evangelista<angeloevan.ane@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "start": "sucrase-node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sucrase": "^3.16.0"
+  }
+}
