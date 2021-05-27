@@ -6,6 +6,22 @@
         <title>Hello!</title>
     </head>
     <body>
-        <h1>Hi, welcome to the server!</h1>
+        <fieldset>
+            <legend>Inputs</legend>
+
+            <input type="text" id="key-input" placeholder="chave" />
+            <input type="text" id="value-input" placeholder="novo valor" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Buttons</legend>
+
+            <button id="clear-all-button">
+                Limpar <code>localstorage</code>
+            </button>
+            <button id="set-key-button">Atualizar chave</button>
+        </fieldset>
+
+        <script src="./script.js"></script>
     </body>
 </html>
